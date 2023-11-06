@@ -16,7 +16,7 @@ public class Main {
         jogadora = (Esportista) new Pessoa();
         ((Esportista) qualquer).setIdFederacao(567);
 
-        System.out.println(qualquer.getIdFederacao());
+        System.out.println(((Esportista) qualquer).getIdFederacao());
 
     }
 }
